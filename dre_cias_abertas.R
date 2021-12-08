@@ -14,7 +14,8 @@ dt_fim <- substr(receita_magalu$DT_FIM_EXERC , 6,7)
 
 receita_magalu <- receita_magalu %>% mutate(dt_inc = dt_inicio,
                                             dt_f = dt_fim)
-                                      
+
+#nova versão        
 
 
 
